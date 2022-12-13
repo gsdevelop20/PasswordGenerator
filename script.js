@@ -22,7 +22,7 @@ function generatePassword(){
         pass += charset.charAt(Math.floor(Math.random()*n));
        
     }
-    containerPassword.classList.remove("hide");
+    containerPassword.classList.remove("hide")
     password.innerHTML = pass;
     newPassword = pass;
 }
